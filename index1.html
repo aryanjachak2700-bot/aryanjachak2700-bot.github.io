@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AVJ Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        header {
+            background: #0a0a0a;
+            color: white;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+        .hero {
+            height: 90vh;
+            background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+            margin-top: 70px;
+        }
+        .hero h2 {
+            font-size: 40px;
+            color: white;
+            text-shadow: 0 0 8px rgba(0,0,0,0.7);
+        }
+        .hero p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: white;
+            text-shadow: 0 0 8px rgba(0,0,0,0.7);
+        }
+        .section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .section h3 {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .about-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 15px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.08);
+        }
+        .card h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        footer {
+            margin-top: 60px;
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AVJ Services</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h2>Excellence in Agro, Food & Service Solutions</h2>
+            <p>Trusted, quality-driven operations for a growing India.</p>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <h3>About AVJ Services</h3>
+        <div class="about-box">
+            AVJ Services is a modern agri-business and service company focused on quality, innovation, and sustainable growth. 
+            Our operations span multiple verticals including agro processing, food distribution, supply solutions, warehousing, and logistics.
+            We aim to deliver world-class services rooted in trust, efficiency, and long-term value for our clients and partners.
+        </div>
+    </div>
+
+    <div id="services" class="section">
+        <h3>Our Services</h3>
+        <div class="services">
+            <div class="card">
+                <h4>Agro Processing</h4>
+                High-quality processing solutions for grain, poultry, and food products.
+            </div>
+            <div class="card">
+                <h4>Food Distribution</h4>
+                Reliable supply of fresh and packaged food across regions.
+            </div>
+            <div class="card">
+                <h4>Warehousing</h4>
+                Safe, compliant, and efficient storage facilities for bulk goods.
+            </div>
+            <div class="card">
+                <h4>Logistics Solutions</h4>
+                End-to-end movement of goods with speed and accuracy.
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <h3>Contact Us</h3>
+        <div class="about-box">
+            Email: aryanjachak2700@gmail.com<br>
+            Phone: 8999951519<br>
+            Address: Baramati, Maharashtra, India
+        </div>
+    </div>
+
+    <footer>
+        © 2025 AVJ Services. All Rights Reserved.
+    </footer>
+</body>
+</html>
